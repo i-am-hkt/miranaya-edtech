@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 📚 Miranaya – EdTech Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Miranaya**, an innovative EdTech platform focused on revolutionizing learning through speed, support, and trust.  
+This is the official front-end website built using **React**, **Bootstrap**, and **custom CSS**.
 
-## Available Scripts
+![Miranaya Banner](./public/banner.png) <!-- Replace with your banner if available -->
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌐 Live Website
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔗 [https://miranaya-edtech.vercel.app](https://miranaya-edtech.vercel.app)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🎯 Clean, modern, responsive UI
+- 💼 Featured Programs with filters (Beginner/Intermediate/Advanced)
+- 📜 Certificate showcase with hover animations
+- 📚 Course categories & popular course sections
+- 📩 Smooth scroll to Contact/Hire Me sections
+- 🌙 Dark-mode-ready design *(optional future)*
+- 🌍 Hosted on Vercel & connected with custom domain
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧱 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend**: React, Bootstrap, React Router
+- **Styling**: Bootstrap 5, Custom CSS, Animations
+- **Deployment**: Vercel
+- **Domain Provider**: Hostinger
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Folder Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+miranaya-edtech-website/ ├── public/ │ ├── index.html │ └── assets/ (images, icons, etc.) ├── src/ │ ├── components/ │ │ └── Navbar.js │ │ └── ProgramSection.js │ ├── pages/ │ │ └── Home.js │ ├── App.js │ └── index.js ├── package.json └── README.md
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Getting Started (Local Setup)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone this repository and run locally:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/i-am-hkt/miranaya-edtech-website.git
+cd miranaya-edtech-website
+npm install
+npm start
+Now go to http://localhost:3000 in your browser.
 
-## Learn More
+👨‍💻 Author
+Himanshu Kumar
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📧 contact2hkt@gmail.com
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🌐 https://himanshu.techfitjourney.com
 
-### Code Splitting
+🔗 GitHub @i-am-hkt
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
