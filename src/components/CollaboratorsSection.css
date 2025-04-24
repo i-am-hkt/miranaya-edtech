@@ -1,0 +1,23 @@
+/* Optional extra styling */
+.collab-card {
+    background: transparent;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .collab-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .collab-card img {
+    transition: transform 0.3s ease;
+  }
+  
+  .collab-card img:hover {
+    transform: scale(1.1);
+  }
+  

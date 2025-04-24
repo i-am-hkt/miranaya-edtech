@@ -1,0 +1,18 @@
+.certificate-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 0.75rem;
+  }
+  
+  .certificate-card:hover .certificate-img {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 102, 0, 0.3);
+  }
+  
+  .rotate-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .certificate-card:hover .rotate-icon {
+    transform: rotate(10deg);
+  }
+  

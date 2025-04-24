@@ -1,0 +1,182 @@
+/* Hero Section */
+.short-term-hero {
+  position: relative;
+  background-image: url('../assets/hero.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 51, 102, 0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.short-term-hero .container {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+.short-term-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.short-term-hero .lead {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.short-term-hero .btn {
+  background-color: #ffffff;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding: 10px 30px;
+}
+
+/* General Page Background (excluding Hero Section) */
+body {
+  background-color: #f1f5f9; /* Soft gray-blue */
+}
+
+/* Course Overview Section */
+.course-overview {
+  padding: 60px 0;
+  background-color: #f1f5f9;
+}
+
+.course-overview h2 {
+  color: #003366;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Card Styles */
+.course-overview .card {
+  position: relative;
+  background: linear-gradient(135deg, #003366, #005bb5); /* Blue gradient matching your theme */
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  margin-bottom: 30px; /* Add margin bottom between the cards */
+}
+
+.course-overview .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.course-overview .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.course-overview .card-body {
+  padding: 20px;
+}
+
+.course-overview .card-title {
+  font-size: 1.3rem;
+  color: #ffffff; /* Light text for contrast */
+  font-weight: 600;
+}
+
+.course-overview .card-text {
+  font-size: 0.95rem;
+  color: #ffffff; /* Light text for contrast */
+}
+
+/* CTA Button */
+.course-overview .btn {
+  background-color: white;
+  color: #142230;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.course-overview .btn:hover {
+  background-color: #002952;
+}
+
+/* Optional Tag / Badge for Courses */
+.course-tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #ff6600;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 15px;
+  z-index: 2;
+  text-transform: uppercase;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ribbon for Special Offers */
+.ribbon {
+  width: 150px;
+  background: #ff6600;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  padding: 4px 0;
+  position: absolute;
+  top: 15px;
+  right: -40px;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-size: 0.75rem;
+}
+.benefit-card {
+  background: linear-gradient(135deg, #1d2a4d, #2e3c64); /* Sleek blue gradient */
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.benefit-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.benefit-card h5 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  color: #ffffff;
+}
+
+.benefit-card p {
+  font-size: 1rem;
+  color: #dbe3f2;
+  line-height: 1.6;
+}
+
